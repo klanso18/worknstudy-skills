@@ -6,17 +6,23 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage ✔️
+- les normes `ecmascript` ✔️
+- l'utilisation de l'`asynchrone` ✔️
+- les promesses ✔️
+- les spécifités du mot-clef `this` ✔️
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✔️
+
+Cette fonction Javascript possède en paramètre un tableau "array" et un nombre "limit".
+Elle s'assure que chacune des valeurs du tableau "array" sont infèrieures ou égales à la valeur de "limit". Si c'est le cas, la fonction retourne true, sinon elle retourne false.
 
 ```javascript
-(e) => mc2;
+export function smallEnough(array, limit) {
+  return array.every((value) => value <= limit);
+}
 ```
 
 ### Utilisation dans un projet ❌ / ✔️
@@ -60,4 +66,3 @@ Résolution :
 
 - J'ai ecrit un [tutoriel](...) ❌ / ✔️
 - J'ai fait une [présentation](...) ❌ / ✔️
-
